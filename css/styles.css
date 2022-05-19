@@ -333,6 +333,38 @@ li {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.socials-icon {
+  fill:#AFB1B8; ;
+}
+
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon
+ {
+  fill:var(--sekondari-txt-color2--) ;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-txt-color--);
 }
 
 /* Подвал */
