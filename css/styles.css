@@ -126,14 +126,19 @@ li {
 }
 
 .contact-list {
+  
   margin-right: 50px;
 }
 
 .contact-list:last-child {
+  
   margin-right: 0px;
 }
 
 .contact-link {
+  display: flex;
+  justify-content: center;
+    align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -141,9 +146,19 @@ li {
   color: var(--main-txt-color--);
 }
 
+.contact-icon {
+  margin-right: 10px;
+  fill: var(--main-txt-color--);
+}
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-txt-color--);
+}
+
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon {
+  fill: var(--accent-txt-color--);
 }
 
 /* Герой */
@@ -250,6 +265,18 @@ li {
   letter-spacing: 0.03em;
 }
 
+.benefits-icon-bg {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+  justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
 /* Род занятий */
 
 .profession {
@@ -353,7 +380,7 @@ li {
 }
 
 .socials-icon {
-  fill:#AFB1B8; ;
+  fill:#AFB1B8; 
 }
 
 .socials-link:hover .socials-icon,
@@ -365,6 +392,45 @@ li {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--accent-txt-color--);
+}
+
+
+/* Наши клиенты */
+
+.clients {
+  padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.clients-list {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-link {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+      border-radius: 4px;
+}
+
+.clients-icon {
+fill: #AFB1B8;
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: var(--accent-txt-color--);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-txt-color--);
 }
 
 /* Подвал */
