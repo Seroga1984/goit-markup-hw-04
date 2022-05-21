@@ -3,7 +3,7 @@
   --secondary-font: Raleway, sans-serifi;
 
   /* text colors */
-  --main-txt-color--: #757575;
+  --main-txt-color--: rgba(117, 117, 117, 1);
   --secondary-txt-color1--: #212121;
   --sekondari-txt-color2--: #ffffff;
   --accent-txt-color--: #2196f3;
@@ -439,6 +439,7 @@ li {
 
 .footer-box {
   display: flex;
+  gap: 70px;
 }
 
 .studio-footer {
@@ -499,6 +500,20 @@ li {
 .socials-link-footer:hover,
 .socials-link-footer:focus {
   background-color: var(--accent-txt-color--);
+}
+
+.socials-title {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--sekondari-txt-color2--);
+    margin-bottom: 20px;
+}
+
+.connect {
+  padding-top: 12px;
 }
 
 
@@ -594,4 +609,16 @@ li {
   letter-spacing: 0.03em;
   color: var(--main-txt-color--);
   display: block;
+}
+.galery-link {
+  display: block;
+  box-sizing: border-box
+}
+
+
+.galery-link:hover,
+.galery-link:focus {
+  
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }

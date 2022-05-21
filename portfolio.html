@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-03</title>
+    <title>goit-markup-hw-04</title>
     <!-- Project fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,21 +24,36 @@
     <!-- Шапка сайта -->
   <header class="header">
     <div class="container header-container">
-      <a class="logo" href="">Web<span class="studio">Studio</span></a>
+      <a class="logo" href="./index.html">Web<span class="studio">Studio</span></a>
       <nav>
-  
         <ul class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link " href="./index.html">Студия</a></li>
-          <li class="navigation-item"><a class="navigation-link activ" href="./portfolio.html">Портфолио</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="">Контакты</a></li>
+          <li class="navigation-item">
+            <a class="navigation-link activ" href="./index.html">Студия</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
       <ul class="contacts">
         <li class="contact-list">
-          <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="contact-link">
+            <svg class="contact-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <p>info@devstudio.com</p>
+          </a>
         </li>
         <li class="contact-list">
-          <a href="tel:+380961111111" class="contact-link">+380961111111</a>
+          <a href="tel:+380961111111" class="contact-link">
+            <svg class="contact-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <p>+380961111111</p>
+          </a>
         </li>
       </ul>
     </div>
@@ -57,63 +72,63 @@
         </ul>
         <ul class="portfolio-gallery">
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio1.jpg" alt="Веб-сайт" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Технокряк</h3>
               <p class="portfolio-text">Веб-сайт</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio2.jpg" alt="два баскетболиста" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h3>
               <p class="portfolio-text">Дизайн</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio3.jpg" alt="Логотип ресторана" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Ресторан Seafood</h3>
               <p class="portfolio-text">Приложение</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio4.jpg" alt="Наушники" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Проект Prime</h3>
               <p class="portfolio-text">Маркетинг</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio5.jpg" alt="Две коробки" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Проект Boxes</h3>
               <p class="portfolio-text">Приложение</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio6.jpg" alt="Монитор" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Inspiration has no Borders</h3>
               <p class="portfolio-text">Веб-сайт</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio7.jpg" alt="Журнал" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Издание Limited Edition</h3>
               <p class="portfolio-text">Дизайн</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio8.jpg" alt="Бирка" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Проект LAB</h3>
               <p class="portfolio-text">Маркетинг</p></div>
             </a>
           </li>
           <li class="gallery-item">
-            <a href="">
+            <a class="galery-link" href="">
               <img src="./images/portfolio9.jpg" alt="Ноутбук" />
               <div class="portfolio-content"><h3 class="portfolio-subtitle">Growing Business</h3>
               <p class="portfolio-text">Приложение</p></div>
@@ -125,20 +140,54 @@
     </main>
     <!-- Подвал -->
     <footer class="footer">
-    <div class="container">
-      <a class="logo" href="">Web<span class="studio studio-footer">Studio</span></a>
-      <address>
-        <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-          <li class="address-list">
-            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-          </li>
-          <li class="address-list">
-            <a href="tel:+380961111111" class="contact-link">+380961111111</a>
-          </li>
-        </ul>
-      </address>
-    </div>
+      <div class="container footer-box">
+        <div><a class="logo" href="">Web<span class="studio studio-footer">Studio</span></a>
+          <address class="address-info">
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-footer">
+              <li class="address-list">
+                <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+              </li>
+              <li class="address-list">
+                <a href="tel:+380961111111" class="contact-link">+380961111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="connect">
+          <h3 class="socials-title">Присоединяйтесь</h3>
+          <ul class="socials-list">
+            <li class="socials-item-footer">
+              <a class="socials-link-footer" href="" target="_blank" rel="nooper" aria-label="инстаграм">
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer">
+              <a class="socials-link-footer" href="" target="_blank" rel="nooper" aria-label="твитер">
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer">
+              <a class="socials-link-footer" href="" target="_blank" rel="nooper" aria-label="фейсбук">
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer">
+              <a class="socials-link-footer" href="" target="_blank" rel="nooper" aria-label="инкидым">
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
