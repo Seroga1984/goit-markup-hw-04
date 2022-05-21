@@ -126,19 +126,19 @@ li {
 }
 
 .contact-list {
-  
+
   margin-right: 50px;
 }
 
 .contact-list:last-child {
-  
+
   margin-right: 0px;
 }
 
 .contact-link {
   display: flex;
-  justify-content: center;
-    align-items: center;
+
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -163,24 +163,22 @@ li {
 
 /* Герой */
 .hero {
-  
+
   background-color: var(--hero-footer-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
   height: 600px;
-  background-image:
-  
-   linear-gradient(to right,
-  rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)),
-   url(../images/bg-hero.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-  
-  
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -223,17 +221,17 @@ li {
 }
 
 .benefits-title {
- 
+
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-list {
@@ -272,9 +270,8 @@ li {
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
   justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 /* Род занятий */
@@ -380,13 +377,12 @@ li {
 }
 
 .socials-icon {
-  fill:#AFB1B8; 
+  fill: #afb1b8;
 }
 
 .socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon
- {
-  fill:var(--sekondari-txt-color2--) ;
+.socials-link:focus .socials-icon {
+  fill: var(--sekondari-txt-color2--);
 }
 
 .socials-link:hover,
@@ -394,33 +390,32 @@ li {
   background-color: var(--accent-txt-color--);
 }
 
-
 /* Наши клиенты */
 
 .clients {
   padding-bottom: 94px;
-    padding-top: 94px;
+  padding-top: 94px;
 }
 
 .clients-list {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .clients-link {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-      border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-icon {
-fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-link:hover .clients-icon,
@@ -436,9 +431,14 @@ fill: #AFB1B8;
 /* Подвал */
 
 .footer {
+
   background-color: var(--hero-footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-box {
+  display: flex;
 }
 
 .studio-footer {
@@ -473,6 +473,34 @@ fill: #AFB1B8;
 .address-list:last-child {
   margin-bottom: 0;
 }
+
+.socials-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-icon-footer {
+  fill:var(--sekondari-txt-color2--);
+}
+
+.socials-link-footer:hover .socials-icon-footer,
+.socials-link-footer:focus .socials-icon-footer {
+  fill: var(--sekondari-txt-color2--);
+}
+
+
+
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--accent-txt-color--);
+}
+
 
 /* Портфолио */
 
@@ -509,22 +537,19 @@ fill: #AFB1B8;
 
 .gallery-item {
   width: 370px;
-  
 }
 
 .portfolio-title {
- 
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio-bt {
@@ -561,7 +586,6 @@ fill: #AFB1B8;
   color: var(--secondary-txt-color1--);
 
   margin-bottom: 4px;
-
 }
 
 .portfolio-text {
@@ -570,5 +594,4 @@ fill: #AFB1B8;
   letter-spacing: 0.03em;
   color: var(--main-txt-color--);
   display: block;
-
 }
